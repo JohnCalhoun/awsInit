@@ -1,3 +1,6 @@
 {
-"websitename":"test"
+    "websitename":"test",
+    "js":"/main.js",
+    "stylesheet":"/style.js"
+
 }

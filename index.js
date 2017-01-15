@@ -3,7 +3,7 @@ var path=require('path')
 var fs=require('fs-extra')
 var figlet=require('figlet')
 
-types=["cloudformation","lambda","customResource"]
+types=["cloudformation","lambda","customResource","website"]
 error_message='must be one of:\n    '+types.join(' ')
 
 var arg=require('argparser')
