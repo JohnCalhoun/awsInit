@@ -18,6 +18,9 @@ module.exports=function(grunt){
     grunt.registerTask('stackup',[
         'cloudformation', 
         'shell:updateStack']) 
+    
+    grunt.registerTask('deletestack',[
+        'shell:deleteStack'])
 
     grunt.registerTask('stackrm',[
         'force:deletestack'])
