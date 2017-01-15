@@ -13,6 +13,7 @@
   "license": "ISC",
   "dependencies": {
     "argparser": "^0.2.2",
+    "figlet": "^1.2.0",
     "fs-extra": "^1.0.0",
     "path": "^0.12.7"
   }

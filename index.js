@@ -1,6 +1,7 @@
 #!/usr/bin/env node
 var path=require('path')
 var fs=require('fs-extra')
+var figlet=require('figlet')
 
 types=["cloudformation","lambda","customResource"]
 error_message='must be one of:\n    '+types.join(' ')
@@ -26,8 +27,9 @@ if( types.indexOf(type) === -1){
 dest=process.cwd()
 source=__dirname+'/'+type
 
-console.log(source)
-console.log(dest)
+console.log(
+    figlet.textSync('AWS-INIT')
+)
 
 fs.copy(source,dest,
     function(error){
@@ -36,9 +38,3 @@ fs.copy(source,dest,
     }
 )
 
-//parse command line
-    //cloudformation
-    //lambda
-    //customresource
-
-//cp files to source
