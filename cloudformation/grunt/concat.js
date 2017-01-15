@@ -16,7 +16,7 @@ module.exports={
             footer:'}',
             stripBanners:true
         },
-        src:['template/*.json','tmp/template.json'],
+        src:['template/*.json','tmp/resources.json'],
         dest:'tmp/CF-<%= StackName %>.json'
     }
 }
