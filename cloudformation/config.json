@@ -1,6 +1,7 @@
 {
+    "ProjectName":"project", 
     "StackName":"stackname",
+
     "ArtifactsBucket":"artifacts",
-    "AwsProfile":"default",
     "EnvType":"dev"
 }
